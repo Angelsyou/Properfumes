@@ -1,0 +1,84 @@
+body{	/** modificar todo el cuerpo de la pagina */
+	background:url(../Imagenes/1.jpg);/** ../ significa regresar una carpeta*/
+	/** background-repeat:; cuando queremos que se repita el fondo en la misma pagina*/
+	/** bacground -repeat: no-repeat; para que no se repita el fondo */
+	background-attachment:fixed;/** el fondo esta arreglado para quede estatico y solo se mueve el contenido*/
+
+	/**background-color: #fff;  color de fondo*/
+}
+
+*{
+	/** regla universal para modificar todo el documento*/
+	margin:0;/** margenes internas */
+	padding:0;
+	box-sizing: border-box;
+}
+
+.Inicio-Secion{
+	width: 400px;
+	height: 400px;
+	background: #4e4d4d;
+	margin: auto;
+	margin-top:auto;
+	box-shadow: 7px 13px 37px #000;
+	padding:20px 30px;
+	border-top: 4px solid #017bad;
+	color: white;
+}
+
+.Inicio-Secion h5{
+	margin: 0;
+	text-align: center;
+	height: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid;
+	font-size: 30px;
+}
+.controls{
+	width: 100%;
+	border: 1px solid #017bad;
+	margin-bottom: 15px;
+	padding: 11px 10px;
+	background: #252323;
+	font-size: 15px;
+	font-weight:bold;/*negrita*/
+}
+.buttons{
+	width: 100%;
+	height: 40px;
+	background: #017bad;
+	border:none;
+	color: white;
+	margin-bottom: 16px;
+}
+.Inicio-Secion p{
+	height: 30px;
+	text-align: center;
+	border-bottom: 1px solid;
+}
+.Inicio-Secion a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+.Inicio-Secion a:hover{
+	text-decoration: underline;
+
+}
+
+
+/** Etiquetas 
+
+h1 {color:red;}*/
+
+h1,h2 {	color:white;}
+
+ h1 {font-size :80px;/** la fuente de la etiqueta  en pixeles  o tamaño*/ }
+
+p {color:blue;/** para dar color alos diferentes parrafos */}
+
+/** conectores desendentes */
+p{/**<a href = "#" class= gremm>parafo </a> linea donde escogemos lineas especificas del texto*/}
+
+.white{	color:white; }/** color por seccion */
+
