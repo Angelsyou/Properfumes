@@ -1,2 +1,0 @@
-# Properfumes
-proyecto de emprendimento
